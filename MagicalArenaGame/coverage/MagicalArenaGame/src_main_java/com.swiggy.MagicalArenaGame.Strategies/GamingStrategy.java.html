@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>GamingStrategy.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</a> &gt; <a href="../../index.html" class="el_group">MagicalArenaGame</a> &gt; <a href="../index.html" class="el_bundle">src/main/java</a> &gt; <a href="index.source.html" class="el_package">com.swiggy.MagicalArenaGame.Strategies</a> &gt; <span class="el_source">GamingStrategy.java</span></div><h1>GamingStrategy.java</h1><pre class="source lang-java linenums">package com.swiggy.MagicalArenaGame.Strategies;
+
+import com.swiggy.MagicalArenaGame.Exceptions.GameNotStartedException;
+import com.swiggy.MagicalArenaGame.Interfaces.GamableStrategy;
+import com.swiggy.MagicalArenaGame.Interfaces.Playable;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableStrategy;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableSwappable;
+import com.swiggy.MagicalArenaGame.Interfaces.WinnableStrategy;
+import com.swiggy.MagicalArenaGame.Utility.PlayableSwapper;
+
+public class GamingStrategy implements GamableStrategy {
+
+    private final WinnableStrategy winningStrategy;
+    private final PlayableStrategy playingStrategy;
+
+<span class="fc" id="L16">    public GamingStrategy() {</span>
+<span class="fc" id="L17">        this.winningStrategy = new WinningStrategy();</span>
+<span class="fc" id="L18">        this.playingStrategy = new PlayingStrategy();</span>
+<span class="fc" id="L19">    }</span>
+
+    @Override
+    public void fight(Playable playerA, Playable playerB) {
+<span class="fc" id="L23">        System.out.println(&quot;\n\t   &lt;&lt;&lt; Game Started &gt;&gt;&gt;&quot;);</span>
+
+<span class="fc" id="L25">        Playable attacker = playingStrategy.chooseStartingPlayer(playerA, playerB);</span>
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        Playable defender = attacker == playerA ? playerB : playerA;</span>
+
+<span class="fc" id="L28">        PlayableSwappable playerSwapper = new PlayableSwapper(attacker, defender);</span>
+
+<span class="fc" id="L30">        System.out.println(&quot;\n--------- Player &quot; + attacker.getId() + &quot; starts the game ---------\n&quot;);</span>
+
+<span class="pc bpc" id="L32" title="1 of 4 branches missed.">        while (attacker.isAlive() &amp;&amp; defender.isAlive()) {</span>
+<span class="fc" id="L33">            displayHealthStatus(attacker, defender);</span>
+
+<span class="fc" id="L35">            playingStrategy.play(attacker, defender);</span>
+
+<span class="fc" id="L37">            playerSwapper.swapPlayables();</span>
+<span class="fc" id="L38">            attacker = playerSwapper.getFirstPlayable();</span>
+<span class="fc" id="L39">            defender = playerSwapper.getSecondPlayable();</span>
+
+<span class="fc" id="L41">            System.out.println(&quot;--------------------------------------------&quot;);</span>
+        }
+
+<span class="fc" id="L44">        displayHealthStatus(attacker, defender);</span>
+
+<span class="fc" id="L46">        System.out.println(&quot;\n\t   &lt;&lt;&lt; Game Ended &gt;&gt;&gt;\n&quot;);</span>
+<span class="fc" id="L47">    }</span>
+
+    @Override
+    public void determineWinner(Playable playerA, Playable playerB) throws GameNotStartedException {
+        try {
+<span class="fc" id="L52">            Playable winner = winningStrategy.determineWinner(playerA, playerB);</span>
+<span class="fc" id="L53">            System.out.println(&quot;------------- Player &quot; + winner.getId() + &quot; Wins ----------------&quot;);</span>
+<span class="fc" id="L54">        } catch (GameNotStartedException e) {</span>
+<span class="fc" id="L55">            System.out.println(&quot;------------- Please start the Game !! ----------------&quot;);</span>
+<span class="fc" id="L56">            throw e;</span>
+        }
+<span class="fc" id="L58">    }</span>
+
+    private void displayHealthStatus(Playable player1, Playable player2) {
+<span class="fc" id="L61">        System.out.println(&quot;Player &quot; + player1.getId() + &quot; Health: &quot; + player1.getHealth() + &quot; | &quot; + &quot;Player &quot; + player2.getId() + &quot; Health: &quot; + player2.getHealth());</span>
+<span class="fc" id="L62">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span>com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</div></body></html>

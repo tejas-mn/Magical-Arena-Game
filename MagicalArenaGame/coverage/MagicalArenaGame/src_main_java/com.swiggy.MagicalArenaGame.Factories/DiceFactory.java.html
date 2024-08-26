@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>DiceFactory.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</a> &gt; <a href="../../index.html" class="el_group">MagicalArenaGame</a> &gt; <a href="../index.html" class="el_bundle">src/main/java</a> &gt; <a href="index.source.html" class="el_package">com.swiggy.MagicalArenaGame.Factories</a> &gt; <span class="el_source">DiceFactory.java</span></div><h1>DiceFactory.java</h1><pre class="source lang-java linenums">package com.swiggy.MagicalArenaGame.Factories;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.swiggy.MagicalArenaGame.Dice.AttackingDie;
+import com.swiggy.MagicalArenaGame.Dice.DefendingDie;
+import com.swiggy.MagicalArenaGame.Dice.Die;
+import com.swiggy.MagicalArenaGame.Dice.SixSidedDie;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableDie;
+import com.swiggy.MagicalArenaGame.Validations.DieValidator;
+
+public class DiceFactory {
+
+<span class="fc" id="L15">    public enum Dice {</span>
+<span class="fc" id="L16">        ATTACKING_DIE, </span>
+<span class="fc" id="L17">        DEFENDING_DIE, </span>
+<span class="fc" id="L18">        SIX_SIDED_DIE,</span>
+<span class="fc" id="L19">        BASIC_DIE</span>
+    }
+
+    private static DiceFactory instance;
+    private final Map&lt;Dice, PlayableDie&gt; container;
+
+<span class="fc" id="L25">    private DiceFactory() throws Exception {</span>
+<span class="fc" id="L26">        container = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L27">        container.put(Dice.ATTACKING_DIE, new AttackingDie(new DieValidator()));</span>
+<span class="fc" id="L28">        container.put(Dice.DEFENDING_DIE, new DefendingDie(new DieValidator()));</span>
+<span class="fc" id="L29">        container.put(Dice.SIX_SIDED_DIE, new SixSidedDie(new DieValidator()));</span>
+<span class="fc" id="L30">        container.put(Dice.BASIC_DIE, new Die(1, 6, new DieValidator()));</span>
+<span class="fc" id="L31">    }</span>
+
+
+    public static synchronized DiceFactory getInstance() throws Exception {
+<span class="fc bfc" id="L35" title="All 2 branches covered.">        if (instance == null) {</span>
+<span class="fc" id="L36">            instance = new DiceFactory();</span>
+        }
+<span class="fc" id="L38">        return instance;</span>
+    }
+
+
+    public PlayableDie create(Dice diceType) {
+<span class="fc" id="L43">        return container.get(diceType);</span>
+    }
+    
+    public PlayableDie createBasicDie(int min, int max) throws Exception {
+<span class="fc" id="L47">        return new Die(min, max, new DieValidator());</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span>com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</div></body></html>

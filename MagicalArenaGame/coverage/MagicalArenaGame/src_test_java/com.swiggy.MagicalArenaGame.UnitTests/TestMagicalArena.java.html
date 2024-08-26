@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>TestMagicalArena.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</a> &gt; <a href="../../index.html" class="el_group">MagicalArenaGame</a> &gt; <a href="../index.html" class="el_bundle">src/test/java</a> &gt; <a href="index.source.html" class="el_package">com.swiggy.MagicalArenaGame.UnitTests</a> &gt; <span class="el_source">TestMagicalArena.java</span></div><h1>TestMagicalArena.java</h1><pre class="source lang-java linenums">package com.swiggy.MagicalArenaGame.UnitTests;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+import com.swiggy.MagicalArenaGame.Arenas.MagicalArena;
+import com.swiggy.MagicalArenaGame.Dice.AttackingDie;
+import com.swiggy.MagicalArenaGame.Dice.DefendingDie;
+import com.swiggy.MagicalArenaGame.Exceptions.GameNotInitializedException;
+import com.swiggy.MagicalArenaGame.Exceptions.GameNotStartedException;
+import com.swiggy.MagicalArenaGame.Exceptions.PlayerLimitReachedException;
+import com.swiggy.MagicalArenaGame.Exceptions.InsufficientPlayersException;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableDie;
+import com.swiggy.MagicalArenaGame.Interfaces.Playable;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableArena;
+import com.swiggy.MagicalArenaGame.Interfaces.Validatable;
+import com.swiggy.MagicalArenaGame.Players.Player;
+import com.swiggy.MagicalArenaGame.Validations.DieValidator;
+import com.swiggy.MagicalArenaGame.Validations.PlayerValidator;
+
+<span class="fc" id="L22">public class TestMagicalArena {</span>
+
+	@Test(expected = InsufficientPlayersException.class)
+	public void testMagicalArenaThrowsInsufficientPlayersException() throws Exception {
+		// arrange
+<span class="fc" id="L27">		Validatable&lt;PlayableDie&gt; dieValidator = new DieValidator();</span>
+<span class="fc" id="L28">		Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+
+<span class="fc" id="L30">		PlayableDie attackingDie = new AttackingDie(dieValidator);</span>
+<span class="fc" id="L31">		PlayableDie defendingDie = new DefendingDie(dieValidator);</span>
+
+<span class="fc" id="L33">		Playable playerA = new Player(1, 50, 5, 10, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L34">		PlayableArena magicalArena = new MagicalArena();</span>
+
+		// act        
+<span class="fc" id="L37">        magicalArena.addPlayer(playerA);</span>
+<span class="nc" id="L38">        magicalArena.initGame();</span>
+
+<span class="nc" id="L40">	}</span>
+	
+	@Test(expected = PlayerLimitReachedException.class)
+	public void testMagicalArenaThrowsPlayerLimitReachedException() throws Exception {
+		// arrange
+<span class="fc" id="L45">		Validatable&lt;PlayableDie&gt; dieValidator = new DieValidator();</span>
+<span class="fc" id="L46">		Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+
+<span class="fc" id="L48">		PlayableDie attackingDie = new AttackingDie(dieValidator);</span>
+<span class="fc" id="L49">		PlayableDie defendingDie = new DefendingDie(dieValidator);</span>
+
+<span class="fc" id="L51">		Playable playerA = new Player(1, 50, 5, 10, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L52">		Playable playerB = new Player(2, 80, 10, 5, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L53">		Playable playerC = new Player(2, 80, 10, 5, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L54">		PlayableArena magicalArena = new MagicalArena();</span>
+
+		// act        
+<span class="fc" id="L57">        magicalArena.addPlayer(playerA);</span>
+<span class="fc" id="L58">        magicalArena.addPlayer(playerB);</span>
+<span class="nc" id="L59">        magicalArena.addPlayer(playerC);</span>
+
+<span class="nc" id="L61">	}</span>
+	
+	@Test(expected = GameNotInitializedException.class)
+	public void testMagicalArenaThrowsGameNotInitializedExceptionIfNotInitialized() throws Exception {
+		// arrange
+<span class="fc" id="L66">		Validatable&lt;PlayableDie&gt; dieValidator = new DieValidator();</span>
+<span class="fc" id="L67">		Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+
+<span class="fc" id="L69">		PlayableDie attackingDie = new AttackingDie(dieValidator);</span>
+<span class="fc" id="L70">		PlayableDie defendingDie = new DefendingDie(dieValidator);</span>
+
+<span class="fc" id="L72">		Playable playerA = new Player(1, 50, 5, 10, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L73">		Playable playerB = new Player(2, 80, 10, 5, attackingDie, defendingDie, playerValidator);</span>
+
+<span class="fc" id="L75">		PlayableArena magicalArena = new MagicalArena();</span>
+        
+<span class="fc" id="L77">        magicalArena.addPlayer(playerA);</span>
+<span class="fc" id="L78">        magicalArena.addPlayer(playerB);</span>
+
+		// act
+<span class="nc" id="L81">		magicalArena.showGameResults();</span>
+<span class="nc" id="L82">	}</span>
+	
+	@Test(expected = GameNotStartedException.class)
+	public void testShowGameResultsThrowsExceptionWithoutStartingNewGame() throws Exception {
+		// arrange
+<span class="fc" id="L87">		Validatable&lt;PlayableDie&gt; dieValidator = new DieValidator();</span>
+<span class="fc" id="L88">		Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+
+<span class="fc" id="L90">		PlayableDie attackingDie = new AttackingDie(dieValidator);</span>
+<span class="fc" id="L91">		PlayableDie defendingDie = new DefendingDie(dieValidator);</span>
+
+<span class="fc" id="L93">		Playable playerA = new Player(1, 50, 5, 10, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L94">		Playable playerB = new Player(2, 80, 10, 5, attackingDie, defendingDie, playerValidator);</span>
+
+<span class="fc" id="L96">		PlayableArena magicalArena = new MagicalArena();</span>
+        
+<span class="fc" id="L98">        magicalArena.addPlayer(playerA);</span>
+<span class="fc" id="L99">        magicalArena.addPlayer(playerB);</span>
+<span class="fc" id="L100">        magicalArena.initGame();</span>
+
+		// act
+<span class="nc" id="L103">		magicalArena.showGameResults();</span>
+<span class="nc" id="L104">	}</span>
+
+	@Test
+	public void testShowGameResultsWorksAfterStartingNewGame() throws Exception {
+		// arrange
+<span class="fc" id="L109">		Validatable&lt;PlayableDie&gt; dieValidator = new DieValidator();</span>
+<span class="fc" id="L110">		Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+
+<span class="fc" id="L112">		PlayableDie attackingDie = new AttackingDie(dieValidator);</span>
+<span class="fc" id="L113">		PlayableDie defendingDie = new DefendingDie(dieValidator);</span>
+
+<span class="fc" id="L115">		Playable playerA = new Player(1, 50, 5, 10, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L116">		Playable playerB = new Player(2, 80, 10, 5, attackingDie, defendingDie, playerValidator);</span>
+
+<span class="fc" id="L118">		PlayableArena magicalArena = new MagicalArena();</span>
+        
+<span class="fc" id="L120">        magicalArena.addPlayer(playerA);</span>
+<span class="fc" id="L121">        magicalArena.addPlayer(playerB);</span>
+<span class="fc" id="L122">        magicalArena.initGame();</span>
+
+		// act
+<span class="fc" id="L125">        magicalArena.startNewGame();</span>
+<span class="fc" id="L126">		magicalArena.showGameResults();</span>
+
+		// assert
+<span class="fc" id="L129">		assertTrue(&quot;Either of the players should be alive and Game Results Should Be Displayed In Console&quot;, playerA.isAlive() ^ playerB.isAlive());</span>
+<span class="fc" id="L130">	}</span>
+
+	@Test
+	public void testMultipleStartNewGame() throws Exception {
+		
+		// arrange
+<span class="fc" id="L136">		Validatable&lt;PlayableDie&gt; dieValidator = new DieValidator();</span>
+<span class="fc" id="L137">		Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+
+<span class="fc" id="L139">		PlayableDie attackingDie = new AttackingDie(dieValidator);</span>
+<span class="fc" id="L140">		PlayableDie defendingDie = new DefendingDie(dieValidator);</span>
+
+<span class="fc" id="L142">		Playable playerA = new Player(1, 50, 5, 10, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L143">		Playable playerB = new Player(2, 80, 10, 5, attackingDie, defendingDie, playerValidator);</span>
+
+<span class="fc" id="L145">		PlayableArena magicalArena = new MagicalArena();</span>
+        
+<span class="fc" id="L147">        magicalArena.addPlayer(playerA);</span>
+<span class="fc" id="L148">        magicalArena.addPlayer(playerB);</span>
+<span class="fc" id="L149">        magicalArena.initGame();</span>
+
+		// act
+<span class="fc" id="L152">        magicalArena.startNewGame();</span>
+<span class="fc" id="L153">		magicalArena.showGameResults();</span>
+		
+<span class="fc" id="L155">        magicalArena.startNewGame();</span>
+<span class="fc" id="L156">		magicalArena.showGameResults();</span>
+		
+		// assert
+<span class="fc" id="L159">		assertTrue(&quot;Either of the players should be alive after they play multiple times&quot;, playerA.isAlive() ^ playerB.isAlive());</span>
+<span class="fc" id="L160">	}</span>
+	
+	@Test
+	public void testMagicalArenaExit() throws Exception {
+		
+		// arrange
+<span class="fc" id="L166">		Validatable&lt;PlayableDie&gt; dieValidator = new DieValidator();</span>
+<span class="fc" id="L167">		Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+
+<span class="fc" id="L169">		PlayableDie attackingDie = new AttackingDie(dieValidator);</span>
+<span class="fc" id="L170">		PlayableDie defendingDie = new DefendingDie(dieValidator);</span>
+
+<span class="fc" id="L172">		Playable playerA = new Player(1, 50, 5, 10, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L173">		Playable playerB = new Player(2, 80, 10, 5, attackingDie, defendingDie, playerValidator);</span>
+
+<span class="fc" id="L175">		PlayableArena magicalArena = new MagicalArena();</span>
+        
+<span class="fc" id="L177">        magicalArena.addPlayer(playerA);</span>
+<span class="fc" id="L178">        magicalArena.addPlayer(playerB);</span>
+<span class="fc" id="L179">        magicalArena.initGame();</span>
+		
+<span class="fc" id="L181">        magicalArena.startNewGame();</span>
+<span class="fc" id="L182">		magicalArena.showGameResults();</span>
+		
+		//act
+<span class="fc" id="L185">		magicalArena.exit();</span>
+		
+		// assert
+<span class="pc bpc" id="L188" title="2 of 4 branches missed.">		assertTrue(&quot;On Exit Players should be remoced and game must be null!&quot;, magicalArena.isPlayersEmpty() &amp;&amp; !magicalArena.isGameInitialized());</span>
+<span class="fc" id="L189">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span>com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</div></body></html>

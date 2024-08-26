@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>Client.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</a> &gt; <a href="../../index.html" class="el_group">MagicalArenaGame</a> &gt; <a href="../index.html" class="el_bundle">src/main/java</a> &gt; <a href="index.source.html" class="el_package">com.swiggy.MagicalArenaGame</a> &gt; <span class="el_source">Client.java</span></div><h1>Client.java</h1><pre class="source lang-java linenums">package com.swiggy.MagicalArenaGame;
+
+import com.swiggy.MagicalArenaGame.Arenas.MagicalArena;
+import com.swiggy.MagicalArenaGame.Factories.DiceFactory;
+import com.swiggy.MagicalArenaGame.Interfaces.Playable;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableArena;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableDie;
+import com.swiggy.MagicalArenaGame.Interfaces.Validatable;
+import com.swiggy.MagicalArenaGame.Players.Player;
+import com.swiggy.MagicalArenaGame.Validations.PlayerValidator;
+
+<span class="nc" id="L12">public class Client {</span>
+    
+	private static final int PLAYER_A_ID = 1;
+    private static final int PLAYER_A_HEALTH = 50;
+    private static final int PLAYER_A_ATTACK = 5;
+    private static final int PLAYER_A_DEFENSE = 10;
+    
+    private static final int PLAYER_B_ID = 2;
+    private static final int PLAYER_B_HEALTH = 100;
+    private static final int PLAYER_B_ATTACK = 10;
+    private static final int PLAYER_B_DEFENSE = 5;
+
+    public static void main(String[] args) {
+        try {
+<span class="nc" id="L26">            DiceFactory diceFactory = DiceFactory.getInstance();</span>
+            
+<span class="nc" id="L28">            PlayableDie attackingDie = diceFactory.create(DiceFactory.Dice.ATTACKING_DIE);</span>
+<span class="nc" id="L29">            PlayableDie defendingDie = diceFactory.create(DiceFactory.Dice.DEFENDING_DIE);</span>
+            
+<span class="nc" id="L31">            Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+            
+<span class="nc" id="L33">            Playable playerA = new Player(PLAYER_A_ID, PLAYER_A_HEALTH, PLAYER_A_ATTACK, PLAYER_A_DEFENSE, attackingDie, defendingDie, playerValidator);</span>
+<span class="nc" id="L34">            Playable playerB = new Player(PLAYER_B_ID, PLAYER_B_HEALTH, PLAYER_B_ATTACK, PLAYER_B_DEFENSE, attackingDie, defendingDie, playerValidator);</span>
+            
+<span class="nc" id="L36">            PlayableArena magicalArena = new MagicalArena();</span>
+            
+<span class="nc" id="L38">            magicalArena.addPlayer(playerA);</span>
+<span class="nc" id="L39">            magicalArena.addPlayer(playerB);</span>
+            
+<span class="nc" id="L41">            playGame(magicalArena, 2);</span>
+            
+<span class="nc" id="L43">        } catch (Exception e) {</span>
+<span class="nc" id="L44">            System.err.println(&quot;An error occurred: &quot; + e.getMessage());</span>
+<span class="nc" id="L45">            e.printStackTrace();</span>
+        }
+<span class="nc" id="L47">    }</span>
+
+    private static void playGame(PlayableArena magicalArena, int turns) throws Exception {
+<span class="nc" id="L50">        magicalArena.initGame();</span>
+        
+<span class="nc bnc" id="L52" title="All 2 branches missed.">        for (int i = 0; i &lt; turns; i++) {</span>
+<span class="nc" id="L53">            magicalArena.startNewGame();</span>
+<span class="nc" id="L54">            magicalArena.showGameResults();</span>
+        }
+        
+<span class="nc" id="L57">        magicalArena.exit();</span>
+<span class="nc" id="L58">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span>com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</div></body></html>
