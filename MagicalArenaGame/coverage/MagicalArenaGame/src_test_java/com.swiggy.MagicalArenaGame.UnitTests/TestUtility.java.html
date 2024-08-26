@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>TestUtility.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</a> &gt; <a href="../../index.html" class="el_group">MagicalArenaGame</a> &gt; <a href="../index.html" class="el_bundle">src/test/java</a> &gt; <a href="index.source.html" class="el_package">com.swiggy.MagicalArenaGame.UnitTests</a> &gt; <span class="el_source">TestUtility.java</span></div><h1>TestUtility.java</h1><pre class="source lang-java linenums">package com.swiggy.MagicalArenaGame.UnitTests;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+import com.swiggy.MagicalArenaGame.Dice.AttackingDie;
+import com.swiggy.MagicalArenaGame.Dice.DefendingDie;
+import com.swiggy.MagicalArenaGame.Interfaces.Playable;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableDie;
+import com.swiggy.MagicalArenaGame.Interfaces.PlayableSwappable;
+import com.swiggy.MagicalArenaGame.Interfaces.Validatable;
+import com.swiggy.MagicalArenaGame.Players.Player;
+import com.swiggy.MagicalArenaGame.Utility.PlayableSwapper;
+import com.swiggy.MagicalArenaGame.Validations.DieValidator;
+import com.swiggy.MagicalArenaGame.Validations.PlayerValidator;
+
+<span class="fc" id="L18">public class TestUtility {</span>
+	@Test
+	public void testPlayableSwapperSwapsPlayers() throws Exception {
+		// arrange
+<span class="fc" id="L22">		Validatable&lt;PlayableDie&gt; dieValidator = new DieValidator();</span>
+<span class="fc" id="L23">		Validatable&lt;Playable&gt; playerValidator = new PlayerValidator();</span>
+
+<span class="fc" id="L25">		PlayableDie attackingDie = new AttackingDie(dieValidator);</span>
+<span class="fc" id="L26">		PlayableDie defendingDie = new DefendingDie(dieValidator);</span>
+
+<span class="fc" id="L28">		Playable playerA = new Player(1, 50, 5, 10, attackingDie, defendingDie, playerValidator);</span>
+<span class="fc" id="L29">		Playable playerB = new Player(2, 80, 10, 5, attackingDie, defendingDie, playerValidator);</span>
+
+<span class="fc" id="L31">		PlayableSwappable playerSwapper = new PlayableSwapper(playerA, playerB);</span>
+
+		// act
+<span class="fc" id="L34">		playerSwapper.swapPlayables();</span>
+
+		// assert
+<span class="pc bpc" id="L37" title="1 of 2 branches missed.">		assertTrue(&quot;First Player should be Second Player after swap&quot;, playerSwapper.getFirstPlayable() == playerB);</span>
+<span class="pc bpc" id="L38" title="1 of 2 branches missed.">		assertTrue(&quot;Second Player should be First Player after swap&quot;, playerSwapper.getSecondPlayable() == playerA);</span>
+<span class="fc" id="L39">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span>com.swiggy.MagicalArenaGame.UnitTests (13-Jun-2024 10:20:29 am)</div></body></html>
