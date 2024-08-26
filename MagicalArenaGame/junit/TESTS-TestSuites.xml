@@ -1,0 +1,2259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="DESKTOP-OVEKDL3" id="0" name="TestDie" package="com.swiggy.MagicalArenaGame.UnitTests" skipped="0" tests="1" time="0.0" timestamp="2024-06-08T18:54:44">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERPROFILE" value="C:\Users\User" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.name" value="MagicalArenaGame" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.swiggy.MagicalArenaGame.UnitTests.TestDie skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit\TEST-com.swiggy.MagicalArenaGame.UnitTests.TestDie.xml crashfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junitvmwatcher7026020123703926198.properties propsfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit9540161122868341138.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null332406405" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="basedir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="user.script" value="" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="User" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.HOMEPATH" value="\Users\User" />
+
+          <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;" />
+
+          <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="env.Path" value="C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\scripts" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-OVEKDL3" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.ERLANG_HOME" value="C:\Program Files\Erlang OTP" />
+
+          <property name="env.FONTCONFIG_FILE" value="C:\Windows\fonts.conf" />
+
+          <property name="java.class.path" value="C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CONDA_SHLVL" value="0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-OVEKDL3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\User" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.CONDA_EXE" value="C:\ProgramData\Anaconda3\Scripts\conda.exe" />
+
+          <property name="env.CONDA_BAT" value="C:\ProgramData\Anaconda3\condabin\conda.bat" />
+
+          <property name="ant.file.type.MagicalArenaGame" value="file" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\." />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ANT_HOME" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="ant.file" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.file.MagicalArenaGame" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,com.swiggy.MagicalArenaGame.UnitTests,TestMagicalArena.testShowGameResultsThrowsExceptionWithoutStartingNewGame,TestMagicalArena.testShowGameResultsWorksAfterStartingNewGame,TestMagicalArena.testStartGame (1),TestMagicalArena,TestPlayer.testPlayerHealthResets,TestPlayer (2),TestWinningStrategy.testPlayerWhoIsAliveWins,build-project,init,clean,TestPlayingStrategy,TestPlayingStrategy.testDefenderHealthReducesAndAttackerHealthRemainsSameAfterAttacking,TestPlayingStrategy.testPlayersHealthDoesNotChangeAfterAttacking,TestPlayingStrategy.testPlayerWithLesserHealthIsChoosenFirst,TestUtility,TestUtility.testGenericSwapperSwapsPlayers,TestWinningStrategy.testdetermineWinnerThrowsExceptionWhenBothPlayersAreAlive,TestDie (1)" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ECLIPSE_HOME" value="C:/Users/User/eclipse/jee-2023-09/eclipse/" />
+
+          <property name="ant.core.lib" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.USERNAME" value="User" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\User\OneDrive" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="env.OneDrive" value="C:\Users\User\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <error message="com.swiggy.MagicalArenaGame.UnitTests.TestDie" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.swiggy.MagicalArenaGame.UnitTests.TestDie
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:495)
+	at java.base/java.lang.Class.forName(Class.java:474)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-OVEKDL3" id="1" name="TestDieValidator" package="com.swiggy.MagicalArenaGame.UnitTests" skipped="0" tests="2" time="0.166" timestamp="2024-06-08T18:54:25">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERPROFILE" value="C:\Users\User" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.name" value="MagicalArenaGame" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.swiggy.MagicalArenaGame.UnitTests.TestDieValidator skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit\TEST-com.swiggy.MagicalArenaGame.UnitTests.TestDieValidator.xml crashfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junitvmwatcher13460328111929138972.properties propsfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit5973759635871651272.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null332406405" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="basedir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="user.script" value="" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="User" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.HOMEPATH" value="\Users\User" />
+
+          <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;" />
+
+          <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="env.Path" value="C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\scripts" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-OVEKDL3" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.ERLANG_HOME" value="C:\Program Files\Erlang OTP" />
+
+          <property name="env.FONTCONFIG_FILE" value="C:\Windows\fonts.conf" />
+
+          <property name="java.class.path" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\target\classes;D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\target\test-classes;C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CONDA_SHLVL" value="0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-OVEKDL3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\User" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.CONDA_EXE" value="C:\ProgramData\Anaconda3\Scripts\conda.exe" />
+
+          <property name="env.CONDA_BAT" value="C:\ProgramData\Anaconda3\condabin\conda.bat" />
+
+          <property name="ant.file.type.MagicalArenaGame" value="file" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\." />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ANT_HOME" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="ant.file" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.file.MagicalArenaGame" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,com.swiggy.MagicalArenaGame.UnitTests,TestMagicalArena.testShowGameResultsThrowsExceptionWithoutStartingNewGame,TestMagicalArena.testShowGameResultsWorksAfterStartingNewGame,TestMagicalArena.testStartGame (1),TestMagicalArena,TestPlayer.testPlayerHealthResets,TestPlayer (2),TestWinningStrategy.testPlayerWhoIsAliveWins,build-project,init,clean,TestPlayingStrategy,TestPlayingStrategy.testDefenderHealthReducesAndAttackerHealthRemainsSameAfterAttacking,TestPlayingStrategy.testPlayersHealthDoesNotChangeAfterAttacking,TestPlayingStrategy.testPlayerWithLesserHealthIsChoosenFirst,TestUtility,TestUtility.testGenericSwapperSwapsPlayers,TestWinningStrategy.testdetermineWinnerThrowsExceptionWhenBothPlayersAreAlive,TestDie (1)" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ECLIPSE_HOME" value="C:/Users/User/eclipse/jee-2023-09/eclipse/" />
+
+          <property name="ant.core.lib" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.USERNAME" value="User" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\User\OneDrive" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="env.OneDrive" value="C:\Users\User\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestDieValidator" name="testDieNegativeMaxRangeThrowsException" time="0.007" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestDieValidator" name="testDieNegativeMinRangeThrowsException" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-OVEKDL3" id="2" name="TestMagicalArena" package="com.swiggy.MagicalArenaGame.UnitTests" skipped="0" tests="4" time="0.173" timestamp="2024-06-08T18:54:34">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERPROFILE" value="C:\Users\User" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.name" value="MagicalArenaGame" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.swiggy.MagicalArenaGame.UnitTests.TestMagicalArena skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit\TEST-com.swiggy.MagicalArenaGame.UnitTests.TestMagicalArena.xml crashfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junitvmwatcher12420581401005198396.properties propsfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit16433494080835624649.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null332406405" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="basedir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="user.script" value="" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="User" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.HOMEPATH" value="\Users\User" />
+
+          <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;" />
+
+          <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="env.Path" value="C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\scripts" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-OVEKDL3" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.ERLANG_HOME" value="C:\Program Files\Erlang OTP" />
+
+          <property name="env.FONTCONFIG_FILE" value="C:\Windows\fonts.conf" />
+
+          <property name="java.class.path" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\target\classes;D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\target\test-classes;C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CONDA_SHLVL" value="0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-OVEKDL3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\User" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.CONDA_EXE" value="C:\ProgramData\Anaconda3\Scripts\conda.exe" />
+
+          <property name="env.CONDA_BAT" value="C:\ProgramData\Anaconda3\condabin\conda.bat" />
+
+          <property name="ant.file.type.MagicalArenaGame" value="file" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\." />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ANT_HOME" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="ant.file" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.file.MagicalArenaGame" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,com.swiggy.MagicalArenaGame.UnitTests,TestMagicalArena.testShowGameResultsThrowsExceptionWithoutStartingNewGame,TestMagicalArena.testShowGameResultsWorksAfterStartingNewGame,TestMagicalArena.testStartGame (1),TestMagicalArena,TestPlayer.testPlayerHealthResets,TestPlayer (2),TestWinningStrategy.testPlayerWhoIsAliveWins,build-project,init,clean,TestPlayingStrategy,TestPlayingStrategy.testDefenderHealthReducesAndAttackerHealthRemainsSameAfterAttacking,TestPlayingStrategy.testPlayersHealthDoesNotChangeAfterAttacking,TestPlayingStrategy.testPlayerWithLesserHealthIsChoosenFirst,TestUtility,TestUtility.testGenericSwapperSwapsPlayers,TestWinningStrategy.testdetermineWinnerThrowsExceptionWhenBothPlayersAreAlive,TestDie (1)" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ECLIPSE_HOME" value="C:/Users/User/eclipse/jee-2023-09/eclipse/" />
+
+          <property name="ant.core.lib" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.USERNAME" value="User" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\User\OneDrive" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="env.OneDrive" value="C:\Users\User\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestMagicalArena" name="testMultipleStartGame" time="0.018" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestMagicalArena" name="testSingleStartGame" time="0.001" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestMagicalArena" name="testShowGameResultsThrowsExceptionWithoutStartingNewGame" time="0.001" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestMagicalArena" name="testShowGameResultsWorksAfterStartingNewGame" time="0.002" />
+
+      <system-out><![CDATA[
+	   <<< Game Started >>>
+
+--------- Player 1 starts the game ---------
+
+Player 1 Health: 50 | Player 2 Health: 80
+Player 1 Attack: 40 | Player 2 Defence: 20
+--------------------------------------------
+Player 2 Health: 60 | Player 1 Health: 50
+Player 2 Attack: 10 | Player 1 Defence: 10
+--------------------------------------------
+Player 1 Health: 50 | Player 2 Health: 60
+Player 1 Attack: 20 | Player 2 Defence: 10
+--------------------------------------------
+Player 2 Health: 50 | Player 1 Health: 50
+Player 2 Attack: 30 | Player 1 Defence: 5
+--------------------------------------------
+Player 1 Health: 25 | Player 2 Health: 50
+Player 1 Attack: 40 | Player 2 Defence: 10
+--------------------------------------------
+Player 2 Health: 20 | Player 1 Health: 25
+Player 2 Attack: 30 | Player 1 Defence: 25
+--------------------------------------------
+Player 1 Health: 20 | Player 2 Health: 20
+Player 1 Attack: 10 | Player 2 Defence: 40
+--------------------------------------------
+Player 2 Health: 20 | Player 1 Health: 20
+Player 2 Attack: 25 | Player 1 Defence: 15
+--------------------------------------------
+Player 1 Health: 10 | Player 2 Health: 20
+Player 1 Attack: 60 | Player 2 Defence: 50
+--------------------------------------------
+Player 2 Health: 10 | Player 1 Health: 10
+Player 2 Attack: 15 | Player 1 Defence: 5
+--------------------------------------------
+Player 1 Health: 0 | Player 2 Health: 10
+--------------------------------------------
+
+	   <<< Game Ended >>>
+
+
+	   <<< Game Started >>>
+
+--------- Player 1 starts the game ---------
+
+Player 1 Health: 50 | Player 2 Health: 80
+Player 1 Attack: 50 | Player 2 Defence: 50
+--------------------------------------------
+Player 2 Health: 80 | Player 1 Health: 50
+Player 2 Attack: 20 | Player 1 Defence: 5
+--------------------------------------------
+Player 1 Health: 35 | Player 2 Health: 80
+Player 1 Attack: 20 | Player 2 Defence: 40
+--------------------------------------------
+Player 2 Health: 80 | Player 1 Health: 35
+Player 2 Attack: 15 | Player 1 Defence: 15
+--------------------------------------------
+Player 1 Health: 35 | Player 2 Health: 80
+Player 1 Attack: 60 | Player 2 Defence: 60
+--------------------------------------------
+Player 2 Health: 80 | Player 1 Health: 35
+Player 2 Attack: 25 | Player 1 Defence: 5
+--------------------------------------------
+Player 1 Health: 15 | Player 2 Health: 80
+Player 1 Attack: 60 | Player 2 Defence: 50
+--------------------------------------------
+Player 2 Health: 70 | Player 1 Health: 15
+Player 2 Attack: 5 | Player 1 Defence: 30
+--------------------------------------------
+Player 1 Health: 15 | Player 2 Health: 70
+Player 1 Attack: 10 | Player 2 Defence: 20
+--------------------------------------------
+Player 2 Health: 70 | Player 1 Health: 15
+Player 2 Attack: 5 | Player 1 Defence: 25
+--------------------------------------------
+Player 1 Health: 15 | Player 2 Health: 70
+Player 1 Attack: 60 | Player 2 Defence: 20
+--------------------------------------------
+Player 2 Health: 30 | Player 1 Health: 15
+Player 2 Attack: 5 | Player 1 Defence: 30
+--------------------------------------------
+Player 1 Health: 15 | Player 2 Health: 30
+Player 1 Attack: 50 | Player 2 Defence: 60
+--------------------------------------------
+Player 2 Health: 30 | Player 1 Health: 15
+Player 2 Attack: 25 | Player 1 Defence: 30
+--------------------------------------------
+Player 1 Health: 15 | Player 2 Health: 30
+Player 1 Attack: 50 | Player 2 Defence: 10
+--------------------------------------------
+Player 2 Health: 0 | Player 1 Health: 15
+--------------------------------------------
+
+	   <<< Game Ended >>>
+
+
+	   <<< Game Started >>>
+
+--------- Player 1 starts the game ---------
+
+Player 1 Health: 50 | Player 2 Health: 80
+Player 1 Attack: 10 | Player 2 Defence: 60
+--------------------------------------------
+Player 2 Health: 80 | Player 1 Health: 50
+Player 2 Attack: 30 | Player 1 Defence: 10
+--------------------------------------------
+Player 1 Health: 30 | Player 2 Health: 80
+Player 1 Attack: 50 | Player 2 Defence: 60
+--------------------------------------------
+Player 2 Health: 80 | Player 1 Health: 30
+Player 2 Attack: 25 | Player 1 Defence: 5
+--------------------------------------------
+Player 1 Health: 10 | Player 2 Health: 80
+Player 1 Attack: 40 | Player 2 Defence: 60
+--------------------------------------------
+Player 2 Health: 80 | Player 1 Health: 10
+Player 2 Attack: 20 | Player 1 Defence: 10
+--------------------------------------------
+Player 1 Health: 0 | Player 2 Health: 80
+--------------------------------------------
+
+	   <<< Game Ended >>>
+
+------------- Please start the Game !! ----------------
+
+	   <<< Game Started >>>
+
+--------- Player 1 starts the game ---------
+
+Player 1 Health: 50 | Player 2 Health: 80
+Player 1 Attack: 30 | Player 2 Defence: 20
+--------------------------------------------
+Player 2 Health: 70 | Player 1 Health: 50
+Player 2 Attack: 10 | Player 1 Defence: 20
+--------------------------------------------
+Player 1 Health: 50 | Player 2 Health: 70
+Player 1 Attack: 60 | Player 2 Defence: 10
+--------------------------------------------
+Player 2 Health: 20 | Player 1 Health: 50
+Player 2 Attack: 30 | Player 1 Defence: 10
+--------------------------------------------
+Player 1 Health: 30 | Player 2 Health: 20
+Player 1 Attack: 10 | Player 2 Defence: 20
+--------------------------------------------
+Player 2 Health: 20 | Player 1 Health: 30
+Player 2 Attack: 10 | Player 1 Defence: 10
+--------------------------------------------
+Player 1 Health: 30 | Player 2 Health: 20
+Player 1 Attack: 60 | Player 2 Defence: 60
+--------------------------------------------
+Player 2 Health: 20 | Player 1 Health: 30
+Player 2 Attack: 5 | Player 1 Defence: 25
+--------------------------------------------
+Player 1 Health: 30 | Player 2 Health: 20
+Player 1 Attack: 20 | Player 2 Defence: 60
+--------------------------------------------
+Player 2 Health: 20 | Player 1 Health: 30
+Player 2 Attack: 10 | Player 1 Defence: 15
+--------------------------------------------
+Player 1 Health: 30 | Player 2 Health: 20
+Player 1 Attack: 50 | Player 2 Defence: 40
+--------------------------------------------
+Player 2 Health: 10 | Player 1 Health: 30
+Player 2 Attack: 20 | Player 1 Defence: 25
+--------------------------------------------
+Player 1 Health: 30 | Player 2 Health: 10
+Player 1 Attack: 30 | Player 2 Defence: 60
+--------------------------------------------
+Player 2 Health: 10 | Player 1 Health: 30
+Player 2 Attack: 30 | Player 1 Defence: 25
+--------------------------------------------
+Player 1 Health: 25 | Player 2 Health: 10
+Player 1 Attack: 50 | Player 2 Defence: 10
+--------------------------------------------
+Player 2 Health: 0 | Player 1 Health: 25
+--------------------------------------------
+
+	   <<< Game Ended >>>
+
+------------- Player 1 Wins ----------------
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-OVEKDL3" id="3" name="TestPlayer" package="com.swiggy.MagicalArenaGame.UnitTests" skipped="0" tests="7" time="0.176" timestamp="2024-06-08T18:54:36">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERPROFILE" value="C:\Users\User" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.name" value="MagicalArenaGame" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.swiggy.MagicalArenaGame.UnitTests.TestPlayer skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit\TEST-com.swiggy.MagicalArenaGame.UnitTests.TestPlayer.xml crashfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junitvmwatcher10563741065885474525.properties propsfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit3892861255099044319.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null332406405" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="basedir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="user.script" value="" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="User" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.HOMEPATH" value="\Users\User" />
+
+          <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;" />
+
+          <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="env.Path" value="C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\scripts" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-OVEKDL3" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.ERLANG_HOME" value="C:\Program Files\Erlang OTP" />
+
+          <property name="env.FONTCONFIG_FILE" value="C:\Windows\fonts.conf" />
+
+          <property name="java.class.path" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\target\classes;D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\target\test-classes;C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CONDA_SHLVL" value="0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-OVEKDL3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\User" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.CONDA_EXE" value="C:\ProgramData\Anaconda3\Scripts\conda.exe" />
+
+          <property name="env.CONDA_BAT" value="C:\ProgramData\Anaconda3\condabin\conda.bat" />
+
+          <property name="ant.file.type.MagicalArenaGame" value="file" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\." />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ANT_HOME" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="ant.file" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.file.MagicalArenaGame" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,com.swiggy.MagicalArenaGame.UnitTests,TestMagicalArena.testShowGameResultsThrowsExceptionWithoutStartingNewGame,TestMagicalArena.testShowGameResultsWorksAfterStartingNewGame,TestMagicalArena.testStartGame (1),TestMagicalArena,TestPlayer.testPlayerHealthResets,TestPlayer (2),TestWinningStrategy.testPlayerWhoIsAliveWins,build-project,init,clean,TestPlayingStrategy,TestPlayingStrategy.testDefenderHealthReducesAndAttackerHealthRemainsSameAfterAttacking,TestPlayingStrategy.testPlayersHealthDoesNotChangeAfterAttacking,TestPlayingStrategy.testPlayerWithLesserHealthIsChoosenFirst,TestUtility,TestUtility.testGenericSwapperSwapsPlayers,TestWinningStrategy.testdetermineWinnerThrowsExceptionWhenBothPlayersAreAlive,TestDie (1)" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ECLIPSE_HOME" value="C:/Users/User/eclipse/jee-2023-09/eclipse/" />
+
+          <property name="ant.core.lib" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.USERNAME" value="User" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\User\OneDrive" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="env.OneDrive" value="C:\Users\User\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayer" name="testPlayerHealthDecreasesWithDamage" time="0.011" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayer" name="testValidPlayerIsCreated" time="0.0" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayer" name="testPlayerIsAliveAfterPartialDamage" time="0.0" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayer" name="testPlayerHealthResets" time="0.001" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayer" name="testPlayerAttack" time="0.001" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayer" name="testPlayerDefend" time="0.001" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayer" name="testPlayerIsDeadAfterFullDamage" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-OVEKDL3" id="4" name="TestPlayerValidator" package="com.swiggy.MagicalArenaGame.UnitTests" skipped="0" tests="3" time="0.165" timestamp="2024-06-08T18:54:27">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERPROFILE" value="C:\Users\User" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.name" value="MagicalArenaGame" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.swiggy.MagicalArenaGame.UnitTests.TestPlayerValidator skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit\TEST-com.swiggy.MagicalArenaGame.UnitTests.TestPlayerValidator.xml crashfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junitvmwatcher12787362414786739461.properties propsfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit16490246369629573763.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null332406405" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="basedir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="user.script" value="" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="User" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.HOMEPATH" value="\Users\User" />
+
+          <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;" />
+
+          <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="env.Path" value="C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\scripts" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-OVEKDL3" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.ERLANG_HOME" value="C:\Program Files\Erlang OTP" />
+
+          <property name="env.FONTCONFIG_FILE" value="C:\Windows\fonts.conf" />
+
+          <property name="java.class.path" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\target\classes;D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\target\test-classes;C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CONDA_SHLVL" value="0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-OVEKDL3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\User" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.CONDA_EXE" value="C:\ProgramData\Anaconda3\Scripts\conda.exe" />
+
+          <property name="env.CONDA_BAT" value="C:\ProgramData\Anaconda3\condabin\conda.bat" />
+
+          <property name="ant.file.type.MagicalArenaGame" value="file" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\." />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ANT_HOME" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="ant.file" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.file.MagicalArenaGame" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,com.swiggy.MagicalArenaGame.UnitTests,TestMagicalArena.testShowGameResultsThrowsExceptionWithoutStartingNewGame,TestMagicalArena.testShowGameResultsWorksAfterStartingNewGame,TestMagicalArena.testStartGame (1),TestMagicalArena,TestPlayer.testPlayerHealthResets,TestPlayer (2),TestWinningStrategy.testPlayerWhoIsAliveWins,build-project,init,clean,TestPlayingStrategy,TestPlayingStrategy.testDefenderHealthReducesAndAttackerHealthRemainsSameAfterAttacking,TestPlayingStrategy.testPlayersHealthDoesNotChangeAfterAttacking,TestPlayingStrategy.testPlayerWithLesserHealthIsChoosenFirst,TestUtility,TestUtility.testGenericSwapperSwapsPlayers,TestWinningStrategy.testdetermineWinnerThrowsExceptionWhenBothPlayersAreAlive,TestDie (1)" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ECLIPSE_HOME" value="C:/Users/User/eclipse/jee-2023-09/eclipse/" />
+
+          <property name="ant.core.lib" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.USERNAME" value="User" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\User\OneDrive" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="env.OneDrive" value="C:\Users\User\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayerValidator" name="testNegativePlayerHealthThrowsException" time="0.011" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayerValidator" name="testNegativePlayerStrengthThrowsException" time="0.0" />
+
+      <testcase classname="com.swiggy.MagicalArenaGame.UnitTests.TestPlayerValidator" name="testNegativePlayerAttackThrowsException" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="DESKTOP-OVEKDL3" id="5" name="TestPlayingStrategy" package="com.swiggy.MagicalArenaGame.UnitTests" skipped="0" tests="1" time="0.0" timestamp="2024-06-08T18:54:40">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERPROFILE" value="C:\Users\User" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.name" value="MagicalArenaGame" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.swiggy.MagicalArenaGame.UnitTests.TestPlayingStrategy skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit\TEST-com.swiggy.MagicalArenaGame.UnitTests.TestPlayingStrategy.xml crashfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junitvmwatcher12973839595509861739.properties propsfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit14432468823095215517.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null332406405" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="basedir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="user.script" value="" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="User" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.HOMEPATH" value="\Users\User" />
+
+          <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;" />
+
+          <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="env.Path" value="C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\scripts" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-OVEKDL3" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.ERLANG_HOME" value="C:\Program Files\Erlang OTP" />
+
+          <property name="env.FONTCONFIG_FILE" value="C:\Windows\fonts.conf" />
+
+          <property name="java.class.path" value="C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CONDA_SHLVL" value="0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-OVEKDL3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\User" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.CONDA_EXE" value="C:\ProgramData\Anaconda3\Scripts\conda.exe" />
+
+          <property name="env.CONDA_BAT" value="C:\ProgramData\Anaconda3\condabin\conda.bat" />
+
+          <property name="ant.file.type.MagicalArenaGame" value="file" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\." />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ANT_HOME" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="ant.file" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.file.MagicalArenaGame" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,com.swiggy.MagicalArenaGame.UnitTests,TestMagicalArena.testShowGameResultsThrowsExceptionWithoutStartingNewGame,TestMagicalArena.testShowGameResultsWorksAfterStartingNewGame,TestMagicalArena.testStartGame (1),TestMagicalArena,TestPlayer.testPlayerHealthResets,TestPlayer (2),TestWinningStrategy.testPlayerWhoIsAliveWins,build-project,init,clean,TestPlayingStrategy,TestPlayingStrategy.testDefenderHealthReducesAndAttackerHealthRemainsSameAfterAttacking,TestPlayingStrategy.testPlayersHealthDoesNotChangeAfterAttacking,TestPlayingStrategy.testPlayerWithLesserHealthIsChoosenFirst,TestUtility,TestUtility.testGenericSwapperSwapsPlayers,TestWinningStrategy.testdetermineWinnerThrowsExceptionWhenBothPlayersAreAlive,TestDie (1)" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ECLIPSE_HOME" value="C:/Users/User/eclipse/jee-2023-09/eclipse/" />
+
+          <property name="ant.core.lib" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.USERNAME" value="User" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\User\OneDrive" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="env.OneDrive" value="C:\Users\User\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <error message="com.swiggy.MagicalArenaGame.UnitTests.TestPlayingStrategy" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.swiggy.MagicalArenaGame.UnitTests.TestPlayingStrategy
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:495)
+	at java.base/java.lang.Class.forName(Class.java:474)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="DESKTOP-OVEKDL3" id="6" name="TestUtility" package="com.swiggy.MagicalArenaGame.UnitTests" skipped="0" tests="1" time="0.0" timestamp="2024-06-08T18:54:42">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERPROFILE" value="C:\Users\User" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.name" value="MagicalArenaGame" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.swiggy.MagicalArenaGame.UnitTests.TestUtility skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit\TEST-com.swiggy.MagicalArenaGame.UnitTests.TestUtility.xml crashfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junitvmwatcher1360611655717269012.properties propsfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit13493002435541230559.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null332406405" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="basedir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="user.script" value="" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="User" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.HOMEPATH" value="\Users\User" />
+
+          <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;" />
+
+          <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="env.Path" value="C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\scripts" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-OVEKDL3" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.ERLANG_HOME" value="C:\Program Files\Erlang OTP" />
+
+          <property name="env.FONTCONFIG_FILE" value="C:\Windows\fonts.conf" />
+
+          <property name="java.class.path" value="C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CONDA_SHLVL" value="0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-OVEKDL3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\User" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.CONDA_EXE" value="C:\ProgramData\Anaconda3\Scripts\conda.exe" />
+
+          <property name="env.CONDA_BAT" value="C:\ProgramData\Anaconda3\condabin\conda.bat" />
+
+          <property name="ant.file.type.MagicalArenaGame" value="file" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\." />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ANT_HOME" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="ant.file" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.file.MagicalArenaGame" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,com.swiggy.MagicalArenaGame.UnitTests,TestMagicalArena.testShowGameResultsThrowsExceptionWithoutStartingNewGame,TestMagicalArena.testShowGameResultsWorksAfterStartingNewGame,TestMagicalArena.testStartGame (1),TestMagicalArena,TestPlayer.testPlayerHealthResets,TestPlayer (2),TestWinningStrategy.testPlayerWhoIsAliveWins,build-project,init,clean,TestPlayingStrategy,TestPlayingStrategy.testDefenderHealthReducesAndAttackerHealthRemainsSameAfterAttacking,TestPlayingStrategy.testPlayersHealthDoesNotChangeAfterAttacking,TestPlayingStrategy.testPlayerWithLesserHealthIsChoosenFirst,TestUtility,TestUtility.testGenericSwapperSwapsPlayers,TestWinningStrategy.testdetermineWinnerThrowsExceptionWhenBothPlayersAreAlive,TestDie (1)" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ECLIPSE_HOME" value="C:/Users/User/eclipse/jee-2023-09/eclipse/" />
+
+          <property name="ant.core.lib" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.USERNAME" value="User" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\User\OneDrive" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="env.OneDrive" value="C:\Users\User\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <error message="com.swiggy.MagicalArenaGame.UnitTests.TestUtility" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.swiggy.MagicalArenaGame.UnitTests.TestUtility
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:495)
+	at java.base/java.lang.Class.forName(Class.java:474)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="DESKTOP-OVEKDL3" id="7" name="TestWinningStrategy" package="com.swiggy.MagicalArenaGame.UnitTests" skipped="0" tests="1" time="0.0" timestamp="2024-06-08T18:54:43">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="env.USERPROFILE" value="C:\Users\User" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="ant.project.name" value="MagicalArenaGame" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.swiggy.MagicalArenaGame.UnitTests.TestWinningStrategy skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit\TEST-com.swiggy.MagicalArenaGame.UnitTests.TestWinningStrategy.xml crashfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junitvmwatcher6248544425541641903.properties propsfile=D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\junit9255732446669519964.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\templates" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null332406405" />
+
+          <property name="java.version.date" value="2023-01-17" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="basedir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="user.script" value="" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="java.runtime.version" value="19.0.2+7-44" />
+
+          <property name="user.name" value="User" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-OVEKDL3" />
+
+          <property name="env.HOMEPATH" value="\Users\User" />
+
+          <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;" />
+
+          <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+
+          <property name="java.version" value="19.0.2" />
+
+          <property name="env.Path" value="C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\scripts" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\TDM-GCC-64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\;C:\Users\User\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\User\.dotnet\tools;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-OVEKDL3" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="env.ERLANG_HOME" value="C:\Program Files\Erlang OTP" />
+
+          <property name="env.FONTCONFIG_FILE" value="C:\Windows\fonts.conf" />
+
+          <property name="java.class.path" value="C:\Users\User\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.7" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CONDA_SHLVL" value="0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-OVEKDL3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\User" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.CONDA_EXE" value="C:\ProgramData\Anaconda3\Scripts\conda.exe" />
+
+          <property name="env.CONDA_BAT" value="C:\ProgramData\Anaconda3\condabin\conda.bat" />
+
+          <property name="ant.file.type.MagicalArenaGame" value="file" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\User\eclipse\jee-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.12.100.v20230825-1354\." />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ANT_HOME" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="java.security.manager" value="allow" />
+
+          <property name="ant.file" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.file.MagicalArenaGame" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame\build.xml" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,com.swiggy.MagicalArenaGame.UnitTests,TestMagicalArena.testShowGameResultsThrowsExceptionWithoutStartingNewGame,TestMagicalArena.testShowGameResultsWorksAfterStartingNewGame,TestMagicalArena.testStartGame (1),TestMagicalArena,TestPlayer.testPlayerHealthResets,TestPlayer (2),TestWinningStrategy.testPlayerWhoIsAliveWins,build-project,init,clean,TestPlayingStrategy,TestPlayingStrategy.testDefenderHealthReducesAndAttackerHealthRemainsSameAfterAttacking,TestPlayingStrategy.testPlayersHealthDoesNotChangeAfterAttacking,TestPlayingStrategy.testPlayerWithLesserHealthIsChoosenFirst,TestUtility,TestUtility.testGenericSwapperSwapsPlayers,TestWinningStrategy.testdetermineWinnerThrowsExceptionWhenBothPlayersAreAlive,TestDie (1)" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ECLIPSE_HOME" value="C:/Users/User/eclipse/jee-2023-09/eclipse/" />
+
+          <property name="ant.core.lib" value="C:\Users\User\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="D:\downl\Downloads\Swiggy Round2\Swiggy Assignment\MagicalArenaGame\MagicalArenaGame" />
+
+          <property name="env.USERNAME" value="User" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\User\OneDrive" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vm.version" value="19.0.2+7-44" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="env.OneDrive" value="C:\Users\User\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <error message="com.swiggy.MagicalArenaGame.UnitTests.TestWinningStrategy" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.swiggy.MagicalArenaGame.UnitTests.TestWinningStrategy
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:495)
+	at java.base/java.lang.Class.forName(Class.java:474)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
