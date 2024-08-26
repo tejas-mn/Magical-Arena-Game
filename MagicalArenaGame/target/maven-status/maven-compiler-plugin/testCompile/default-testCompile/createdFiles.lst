@@ -1,0 +1,9 @@
+com\swiggy\MagicalArenaGame\UnitTests\TestMagicalArena.class
+com\swiggy\MagicalArenaGame\UnitTests\TestPlayer.class
+com\swiggy\MagicalArenaGame\UnitTests\TestDie.class
+com\swiggy\MagicalArenaGame\UnitTests\TestPlayerValidator.class
+com\swiggy\MagicalArenaGame\UnitTests\TestUtility.class
+com\swiggy\MagicalArenaGame\UnitTests\TestDieValidator.class
+com\swiggy\MagicalArenaGame\UnitTests\TestPlayingStrategy.class
+com\swiggy\MagicalArenaGame\UnitTests\TestMagicalArenaGameValidator.class
+com\swiggy\MagicalArenaGame\UnitTests\TestWinningStrategy.class
