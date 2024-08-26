@@ -1,4 +1,4 @@
-# Swiggy Assignment - Magical Arena Game | 09-06-2024
+# Magical Arena Game | 09-06-2024
 
 ### Problem Statement
 
@@ -111,10 +111,6 @@ D. ** OR Run using already compiled Jar File:**
 - Number of Tests: 29
 - Test Coverage: 91%
 
-
-### Submitted By
- - [Tejas M N]
- 
- 
- 
+### Written By
+ - [Tejas M N] 
  
